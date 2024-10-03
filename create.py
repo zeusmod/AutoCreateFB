@@ -23,13 +23,6 @@ try :
 except Exception as e :
     os.system('pip install requests')
     import requests
-try :
-    import bs4
-    from bs4 import BeautifulSoup as bs
-except Exception as e :
-    os.system('pip install bs4')
-    import bs4
-    from bs4 import BeautifulSoup as bs
 
 #--> Global Variable
 auth1 = 'Dapunta Khurayra X'
